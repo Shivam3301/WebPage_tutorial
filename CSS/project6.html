@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 359px;
+            width: 800px;
+            border: 1px solid;
+            margin: 0 auto;
+            margin-top: 100px;
+            box-shadow: 2px 2px 4px;
+        }
+        #topup{
+            width: 800px;
+            height: 60px;
+            color: rgb(7, 223, 247);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            display: flex;
+            margin: 0px;
+            text-align: center;
+            background-color: rgb(152, 19, 136);
+        }
+        #top1{
+            height: 60px;
+            width: 400px;
+            border: 1px solid black;
+        }
+        #top2{
+            height: 60px;
+            width: 200px;
+            border: 1px solid black;
+        }
+        #top3{
+            height: 60px;
+            width: 200px;
+            border: 1px solid black;
+        }
+        .sub{
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        #parent3 {
+            width: 600px;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #pr {
+            display: flex;
+        }
+        .con{
+            height: 50px;
+            width: 200px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-size: 30px;
+            margin: 0px;
+            padding: 0%;
+            text-transform: capitalize;
+        }
+
+        #sp {
+            background-color: rgb(13, 196, 237);
+        }
+
+        #p {
+            background-color: rgb(53, 13, 252);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div class="top" id="topup">
+            <div id="top1">subject</div>
+            <div id="top2">jhon doe</div>
+            <div id="top3">martin luther</div>
+        </div>
+        <div id="pr">
+            <div id="parent2">
+                <div class="sub">biology</div>
+                <div class="sub" id="sp">chemistry</div>
+                <div class="sub">physics</div>
+            </div>
+            <div id="parent3">
+                <div class="con" id="sp">practical</div>
+                <div class="con" id="p">A</div>
+                <div class="con" id="sp">A</div>
+                <div class="con" id="p">therory</div>
+                <div class="con" id="sp">A+</div>
+                <div class="con" id="p">A</div>
+                <div class="con" id="null">practical</div>
+                <div class="con" id="p">B</div>
+                <div class="con" id="null">C</div>
+                <div class="con" id="p">theory</div>
+                <div class="con" id="null">A</div>
+                <div class="con" id="p">c+</div>
+                <div class="con" id="sp">practical</div>
+                <div class="con" id="p">A</div>
+                <div class="con" id="sp">A</div>
+                <div class="con" id="p">theory</div>
+                <div class="con" id="sp">A-</div>
+                <div class="con" id="p">A-</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

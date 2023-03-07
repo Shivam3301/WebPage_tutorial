@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project5</title>
+    <style>
+        body {
+            background-image: linear-gradient( rgb(106, 122, 245),rgb(17, 44, 86),rgb(254, 254, 254))
+        }
+
+        #outer {
+            height: 500px;
+            width: 868px;
+            /* border: 1px solid; */
+            display: inline-flex;
+            margin-top: 33px;
+            margin-left: 23%;
+            margin-bottom:10% ;
+        }
+
+        #left {
+            height: 610px;
+            width: 400px;
+            border: 1px solid;
+            background-image: url(./images/pexels-nicolas-postiglioni-421129.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #right {
+
+            height: 610px;
+            width: 350px;
+            border: 1px solid;
+            background-color: black;
+
+        }
+
+        .in {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid white;
+            height: 30px;
+            width: 60%;
+            margin-top: 25px;
+            background-color: black;
+            color: white;
+
+        }
+
+        #content {
+            margin-left: 50px;
+        }
+
+        input[type=submit] {
+            padding: 10px 10px;
+            background: green;
+            border-color: yellowgreen;
+            color: white;
+            border-radius: 30px;
+            width: 75px;
+            margin-top: 40px;
+            margin-left: -3px;
+            border: none;
+        }
+
+        #gn {
+            border: none;
+            border-bottom: 1px solid;
+            width: 60%;
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="left"></div>
+        <div id="right">
+            <div id="content">
+                <h1>Registration Info</h1>
+                <input type="text" placeholder="Name" class="in"><br><br>
+                <input type="date" name="" id="" placeholder="Birthdate" class="in"><br><br><br>
+                <select name="" id="gn" class="gender" class="in">
+                    <option value="" disabled selected>Gender</option>
+                    <option value="">Female</option>
+                    <option value="">Male</option>
+                    <option value="">Other</option>
+                    <option value="">Prefer not to say</option>
+                </select><br><br>
+                <input type="email" name="" id="" placeholder="Email" class="in"><br><br>
+                <input type="number" name="" id="" placeholder="Phone" class="in"><br><br>
+                <div id="sub">
+                <input type="submit" value="Submit">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
